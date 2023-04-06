@@ -1,0 +1,31 @@
+.gradiente_radial {
+    background: radial-gradient(red, green);
+}
+.gradiente_cone {
+    background: conic-gradient(red, green, blue);
+}
+.gradient_arcoiris {
+    background: linear-gradient(rgba(255, 0, 0, 1), rgb(255,165,0), yellow, green, rgb(0,0,255),indigo, rgba(238,130,214,1));
+}
+
+.atv1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.star_buzz_style h1{
+    color: brown;
+}
+
+.star_buzz_style h2{
+    color: rgb(7, 77, 7);
+}
+
+.atv1{
+    background-color: brown;
+}
+.atv1 h1 {
+    color: white;
+}
+.atv1 {
+    background: linear-gradient(to left, blue, aqua);
+}
