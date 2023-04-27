@@ -1,0 +1,67 @@
+* {
+    font-size: 16px;
+}
+
+body{
+    background: linear-gradient(to right(#b3cce2, #D9CCC1));
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #024059;
+}
+
+.cite {
+    font-family: 'Tilt Neon';
+    line-height: 1.5;
+    text-align: justify;
+}
+
+cite {
+    text-align: right;
+    
+}
+
+.date {
+    text-align: left;
+    font-size: 8rem;
+}
+
+.colorDarkFStyIta {
+    color: darkslategray;
+    font-style: italic;
+}
+
+.bc005eb00_cd9ccc1 {
+    background-color: #005eb0;
+	color: #D9CCC1;
+}
+
+.strikethrough {
+    position: relative;
+  }
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+  }

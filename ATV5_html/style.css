@@ -1,0 +1,11 @@
+.placa_transito {
+    display: block;
+}
+
+.fa {
+    display: block !important;
+}
+
+.placa_transito li {
+    height: 2rem;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 sobre DOM</title>
+</head>
+
+<body>
+    <h1>Questões de DOM</h1>
+    <p id="pDaQ2">Testando questão 2</p>
+
+    <p id="paragrafo">Clique no botão abaixo para alterar o texto deste parágrafo:
+    </p>
+    <button id="botao">Clique aqui</button>
+    <button id="limpar"></button>
+
+    <h2>q4</h2>
+    <p> O textContent retorna somente o conteúdo de texto do elemento. O innerHTML retorna todo o conteúdo do elemento.
+    </p>
+
+    <h2>q5</h2>
+    <p id="q5">Mudando estilo</p>
+
+    <div id="q6">
+        <h2>q6</h2>
+        <button onclick="changeColor()">Mudar</button>
+        <p>esse é um ex de frase</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        var paragraphs = document.getElementsByTagName("p");
+        console.log(paragraphs[0].nodeName);
+        console.log(document.getElementById("pDaQ2"));
+        document.getElementById("q5").style.color = "yellow";
+
+        function changeColor() {
+            var body = document.getElementById("q6");
+            
+            if (body.style.color === "black") {
+                body.style.color = "white";
+                body.style.backgroundColor = "black";
+            } else {
+                body.style.color = "black";
+                body.style.backgroundColor = "white";
+            }
+        }
+    </script>
+</body>
+
+</html>
